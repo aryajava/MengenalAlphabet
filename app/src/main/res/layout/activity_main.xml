@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:hapticFeedbackEnabled="true"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!---ABCD-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/logoMengenalAlphabet"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="32dp"
+                    android:contentDescription="@string/app_name"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/logo_mengenal_alphabet" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                >
+
+                <Button
+                    android:id="@+id/btnA"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_a"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btnB"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_b"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btnC"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_c"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btnD"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_d"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="315dp" />
+
+            </LinearLayout>
+            <!--EFGH-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnE"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_e"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btnF"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_f"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btnG"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_g"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteY="95dp" />
+
+                <Button
+                    android:id="@+id/btnH"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_h"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="315dp" />
+
+            </LinearLayout>
+            <!--IJKL-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnI"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_i"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btnJ"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_j"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btnK"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_k"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btnL"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_l"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="315dp" />
+
+            </LinearLayout>
+            <!--MNOP-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnM"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_m"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btnN"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_n"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btnO"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_o"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btnP"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_p"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="315dp" />
+
+            </LinearLayout>
+            <!--QRST-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnQ"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_q"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="16dp" />
+
+                <Button
+                    android:id="@+id/btnR"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_r"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="112dp" />
+
+                <Button
+                    android:id="@+id/btnS"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_s"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="200dp" />
+
+                <Button
+                    android:id="@+id/btnT"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_t"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="315dp" />
+
+            </LinearLayout>
+            <!--UVWX-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnU"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_u"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteY="594dp" />
+
+                <Button
+                    android:id="@+id/btnV"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_v"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="112dp"
+                    tools:layout_editor_absoluteY="95dp" />
+
+                <Button
+                    android:id="@+id/btnW"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_w"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="200dp" />
+
+                <Button
+                    android:id="@+id/btnX"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_x"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible"
+                    tools:layout_editor_absoluteX="315dp"
+                    tools:layout_editor_absoluteY="418dp" />
+
+            </LinearLayout>
+            <!--YZ-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnY"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_y"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toStartOf="@+id/btnZ"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnV" />
+
+                <Button
+                    android:id="@+id/btnZ"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_margin="5dp"
+                    android:clickable="true"
+                    android:foreground="@drawable/alphabet_z"
+                    android:hapticFeedbackEnabled="true"
+                    android:text=""
+                    android:visibility="visible"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/btnY"
+                    app:layout_constraintTop_toBottomOf="@+id/btnW" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
