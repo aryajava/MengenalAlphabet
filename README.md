@@ -12,4 +12,4 @@
 ![Demo MengenalAlphabet](https://drive.google.com/uc?id=17OpAtMzy3yIM-2ephNEMhvJf0wr9tamh)
 
 > ## Link Download
-> ![Download - MengenalAlphabet](https://drive.google.com/uc?export=download&id=17OBiWZjQSU3Yr2zk-bRnpmmFptTiGJ_a)
+> [Download - MengenalAlphabet](https://drive.google.com/uc?export=download&id=17OBiWZjQSU3Yr2zk-bRnpmmFptTiGJ_a)
